@@ -2,8 +2,8 @@
   "name": "@bunny-editor/svg-toolkit",
   "version": "1.0.0",
   "description": "SVG path parsing, serialization, scaling, and geometry utilities",
-  "main": "dist/path-parser.js",
-  "types": "dist/path-parser.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
     "build": "tsc",
@@ -17,9 +17,6 @@
     "url": "https://github.com/Bunny-Editor/svg-toolkit.git"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
-    "jest": "^30.3.0",
-    "ts-jest": "^29.4.6",
-    "typescript": "^6.0.2"
+    "typescript": "^5.5.0"
   }
 }
